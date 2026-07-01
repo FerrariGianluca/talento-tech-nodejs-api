@@ -50,7 +50,7 @@ npm run start
 |----------|----------|-------------|
 | GET | `/api/products` | Obtener todos los productos |
 | GET | `/api/products/:id` | Obtener un producto por ID |
-| POST | `/api/products/create` | Crear un producto |
+| POST | `/api/products` | Crear un producto |
 | PUT | `/api/products/:id` | Actualizar un producto |
 | DELETE | `/api/products/:id` | Eliminar un producto |
 
@@ -60,9 +60,11 @@ npm run start
 src
 ├── config
 ├── controllers
+├── middlewares
 ├── models
 ├── routes
 ├── seeders
+├── utils
 ```
 
 ## Autor
